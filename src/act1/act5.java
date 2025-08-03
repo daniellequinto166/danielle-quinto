@@ -26,7 +26,7 @@ public class act5 {
                 
                 if (loggedIn) {
                     System.out.println("Welcome to your banking dashboard!");
-                    bc.viewBalance(); // optional: show balance
+                    bc.viewBalance(); 
                 } else {
                     System.out.println("Access denied.");
                 }
